@@ -2,8 +2,8 @@
 //  FDCategories.h
 //  FDCategories
 //
-//  Created by QianTuFD on 16/8/15.
-//  Copyright © 2016年 QianTuFD. All rights reserved.
+//  Created by QianTuFD on 16/8/19.
+//  Copyright © 2016年 fandy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

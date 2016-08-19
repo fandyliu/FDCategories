@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7FF34D31D61CD87008A3DD0 /* FDCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D7FF34D21D61CD87008A3DD0 /* FDCategories.h */; };
+		D71536291D66FCA7009D7421 /* FDCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D71536281D66FCA7009D7421 /* FDCategories.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7FF34C61D61CBDA008A3DD0 /* FDCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7FF34CB1D61CBDA008A3DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7FF34D21D61CD87008A3DD0 /* FDCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCategories.h; sourceTree = "<group>"; };
+		D71536191D66FAB0009D7421 /* FDCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D715361E1D66FAB0009D7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D71536281D66FCA7009D7421 /* FDCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCategories.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D7FF34C21D61CBDA008A3DD0 /* Frameworks */ = {
+		D71536151D66FAB0009D7421 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -27,36 +27,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D7FF34BC1D61CBDA008A3DD0 = {
+		D715360F1D66FAB0009D7421 = {
 			isa = PBXGroup;
 			children = (
-				D7FF34D11D61CD87008A3DD0 /* FDCategories */,
-				D7FF34C81D61CBDA008A3DD0 /* Supporting Files */,
-				D7FF34C71D61CBDA008A3DD0 /* Products */,
+				D71536271D66FCA7009D7421 /* FDCategories */,
+				D71536261D66FC58009D7421 /* Supporting File */,
+				D715361A1D66FAB0009D7421 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D7FF34C71D61CBDA008A3DD0 /* Products */ = {
+		D715361A1D66FAB0009D7421 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D7FF34C61D61CBDA008A3DD0 /* FDCategories.framework */,
+				D71536191D66FAB0009D7421 /* FDCategories.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D7FF34C81D61CBDA008A3DD0 /* Supporting Files */ = {
+		D71536261D66FC58009D7421 /* Supporting File */ = {
 			isa = PBXGroup;
 			children = (
-				D7FF34CB1D61CBDA008A3DD0 /* Info.plist */,
+				D715361E1D66FAB0009D7421 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			name = "Supporting File";
 			path = FDCategories;
 			sourceTree = "<group>";
 		};
-		D7FF34D11D61CD87008A3DD0 /* FDCategories */ = {
+		D71536271D66FCA7009D7421 /* FDCategories */ = {
 			isa = PBXGroup;
 			children = (
-				D7FF34D21D61CD87008A3DD0 /* FDCategories.h */,
+				D71536281D66FCA7009D7421 /* FDCategories.h */,
 			);
 			name = FDCategories;
 			path = ../FDCategories;
@@ -65,25 +65,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D7FF34C31D61CBDA008A3DD0 /* Headers */ = {
+		D71536161D66FAB0009D7421 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7FF34D31D61CD87008A3DD0 /* FDCategories.h in Headers */,
+				D71536291D66FCA7009D7421 /* FDCategories.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D7FF34C51D61CBDA008A3DD0 /* FDCategories */ = {
+		D71536181D66FAB0009D7421 /* FDCategories */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7FF34CE1D61CBDA008A3DD0 /* Build configuration list for PBXNativeTarget "FDCategories" */;
+			buildConfigurationList = D71536211D66FAB0009D7421 /* Build configuration list for PBXNativeTarget "FDCategories" */;
 			buildPhases = (
-				D7FF34C11D61CBDA008A3DD0 /* Sources */,
-				D7FF34C21D61CBDA008A3DD0 /* Frameworks */,
-				D7FF34C31D61CBDA008A3DD0 /* Headers */,
-				D7FF34C41D61CBDA008A3DD0 /* Resources */,
+				D71536141D66FAB0009D7421 /* Sources */,
+				D71536151D66FAB0009D7421 /* Frameworks */,
+				D71536161D66FAB0009D7421 /* Headers */,
+				D71536171D66FAB0009D7421 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -91,42 +91,43 @@
 			);
 			name = FDCategories;
 			productName = FDCategories;
-			productReference = D7FF34C61D61CBDA008A3DD0 /* FDCategories.framework */;
+			productReference = D71536191D66FAB0009D7421 /* FDCategories.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D7FF34BD1D61CBDA008A3DD0 /* Project object */ = {
+		D71536101D66FAB0009D7421 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FD;
 				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = QianTuFD;
+				ORGANIZATIONNAME = fandy;
 				TargetAttributes = {
-					D7FF34C51D61CBDA008A3DD0 = {
+					D71536181D66FAB0009D7421 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = D7FF34C01D61CBDA008A3DD0 /* Build configuration list for PBXProject "FDCategories" */;
+			buildConfigurationList = D71536131D66FAB0009D7421 /* Build configuration list for PBXProject "FDCategories" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D7FF34BC1D61CBDA008A3DD0;
-			productRefGroup = D7FF34C71D61CBDA008A3DD0 /* Products */;
+			mainGroup = D715360F1D66FAB0009D7421;
+			productRefGroup = D715361A1D66FAB0009D7421 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D7FF34C51D61CBDA008A3DD0 /* FDCategories */,
+				D71536181D66FAB0009D7421 /* FDCategories */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7FF34C41D61CBDA008A3DD0 /* Resources */ = {
+		D71536171D66FAB0009D7421 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,7 +137,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D7FF34C11D61CBDA008A3DD0 /* Sources */ = {
+		D71536141D66FAB0009D7421 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,7 +147,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D7FF34CC1D61CBDA008A3DD0 /* Debug */ = {
+		D715361F1D66FAB0009D7421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -194,7 +195,7 @@
 			};
 			name = Debug;
 		};
-		D7FF34CD1D61CBDA008A3DD0 /* Release */ = {
+		D71536201D66FAB0009D7421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,33 +237,33 @@
 			};
 			name = Release;
 		};
-		D7FF34CF1D61CBDA008A3DD0 /* Debug */ = {
+		D71536221D66FAB0009D7421 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FDCategories/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.frontpay.FDCategories;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fandy.FDCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		D7FF34D01D61CBDA008A3DD0 /* Release */ = {
+		D71536231D66FAB0009D7421 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FDCategories/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.frontpay.FDCategories;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fandy.FDCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -271,25 +272,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D7FF34C01D61CBDA008A3DD0 /* Build configuration list for PBXProject "FDCategories" */ = {
+		D71536131D66FAB0009D7421 /* Build configuration list for PBXProject "FDCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7FF34CC1D61CBDA008A3DD0 /* Debug */,
-				D7FF34CD1D61CBDA008A3DD0 /* Release */,
+				D715361F1D66FAB0009D7421 /* Debug */,
+				D71536201D66FAB0009D7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7FF34CE1D61CBDA008A3DD0 /* Build configuration list for PBXNativeTarget "FDCategories" */ = {
+		D71536211D66FAB0009D7421 /* Build configuration list for PBXNativeTarget "FDCategories" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7FF34CF1D61CBDA008A3DD0 /* Debug */,
-				D7FF34D01D61CBDA008A3DD0 /* Release */,
+				D71536221D66FAB0009D7421 /* Debug */,
+				D71536231D66FAB0009D7421 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D7FF34BD1D61CBDA008A3DD0 /* Project object */;
+	rootObject = D71536101D66FAB0009D7421 /* Project object */;
 }
