@@ -23,6 +23,8 @@
 		D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */; };
 		D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */; };
 		D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */; };
+		D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F891D6A99E400C25210 /* UITextField+FDPlaceholderColor.h */; };
+		D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F8A1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDAdd.m"; sourceTree = "<group>"; };
 		D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDScreenCapture.h"; sourceTree = "<group>"; };
 		D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDScreenCapture.m"; sourceTree = "<group>"; };
+		D7881F891D6A99E400C25210 /* UITextField+FDPlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FDPlaceholderColor.h"; sourceTree = "<group>"; };
+		D7881F8A1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FDPlaceholderColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D7881F811D6A967800C25210 /* UITextField+FDCategories */,
 				D7881F781D6A926D00C25210 /* UIView+FDCatergories */,
 				D715362B1D670015009D7421 /* UIImage+FDCategories */,
 			);
@@ -124,6 +129,15 @@
 			path = "UIView+FDCatergories";
 			sourceTree = "<group>";
 		};
+		D7881F811D6A967800C25210 /* UITextField+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7881F891D6A99E400C25210 /* UITextField+FDPlaceholderColor.h */,
+				D7881F8A1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m */,
+			);
+			path = "UITextField+FDCategories";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +152,7 @@
 				D71536401D67042B009D7421 /* UIImage+FDFrameImage.h in Headers */,
 				D71536291D66FCA7009D7421 /* FDCategories.h in Headers */,
 				D71536341D670191009D7421 /* UIImage+FDAdd.h in Headers */,
+				D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */,
 				D715363C1D67032D009D7421 /* UIImage+FDColorImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +227,7 @@
 			files = (
 				D71536391D6701BD009D7421 /* UIImage+FDBlurImage.m in Sources */,
 				D715363D1D67032D009D7421 /* UIImage+FDColorImage.m in Sources */,
+				D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */,
 				D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */,
 				D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */,
 				D715362F1D6700AE009D7421 /* UIImage+FDCircleImage.m in Sources */,
