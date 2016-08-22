@@ -19,6 +19,10 @@
 		D715363D1D67032D009D7421 /* UIImage+FDColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D715363B1D67032D009D7421 /* UIImage+FDColorImage.m */; };
 		D71536401D67042B009D7421 /* UIImage+FDFrameImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D715363E1D67042B009D7421 /* UIImage+FDFrameImage.h */; };
 		D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D715363F1D67042B009D7421 /* UIImage+FDFrameImage.m */; };
+		D7881F7B1D6A931100C25210 /* UIView+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F791D6A931100C25210 /* UIView+FDAdd.h */; };
+		D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */; };
+		D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */; };
+		D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		D715363B1D67032D009D7421 /* UIImage+FDColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FDColorImage.m"; sourceTree = "<group>"; };
 		D715363E1D67042B009D7421 /* UIImage+FDFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FDFrameImage.h"; sourceTree = "<group>"; };
 		D715363F1D67042B009D7421 /* UIImage+FDFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FDFrameImage.m"; sourceTree = "<group>"; };
+		D7881F791D6A931100C25210 /* UIView+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDAdd.h"; sourceTree = "<group>"; };
+		D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDAdd.m"; sourceTree = "<group>"; };
+		D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDScreenCapture.h"; sourceTree = "<group>"; };
+		D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDScreenCapture.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D7881F781D6A926D00C25210 /* UIView+FDCatergories */,
 				D715362B1D670015009D7421 /* UIImage+FDCategories */,
 			);
 			name = FDCategories;
@@ -104,6 +113,17 @@
 			path = "UIImage+FDCategories";
 			sourceTree = "<group>";
 		};
+		D7881F781D6A926D00C25210 /* UIView+FDCatergories */ = {
+			isa = PBXGroup;
+			children = (
+				D7881F791D6A931100C25210 /* UIView+FDAdd.h */,
+				D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */,
+				D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */,
+				D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */,
+			);
+			path = "UIView+FDCatergories";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -111,7 +131,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */,
 				D715362E1D6700AE009D7421 /* UIImage+FDCircleImage.h in Headers */,
+				D7881F7B1D6A931100C25210 /* UIView+FDAdd.h in Headers */,
 				D71536381D6701BD009D7421 /* UIImage+FDBlurImage.h in Headers */,
 				D71536401D67042B009D7421 /* UIImage+FDFrameImage.h in Headers */,
 				D71536291D66FCA7009D7421 /* FDCategories.h in Headers */,
@@ -190,6 +212,8 @@
 			files = (
 				D71536391D6701BD009D7421 /* UIImage+FDBlurImage.m in Sources */,
 				D715363D1D67032D009D7421 /* UIImage+FDColorImage.m in Sources */,
+				D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */,
+				D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */,
 				D715362F1D6700AE009D7421 /* UIImage+FDCircleImage.m in Sources */,
 				D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */,
 				D71536351D670191009D7421 /* UIImage+FDAdd.m in Sources */,
