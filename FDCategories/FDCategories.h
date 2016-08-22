@@ -17,12 +17,47 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 
 
 
-//#if __has_include(<YYCategories/YYCategories.h>)
-//#import <YYCategories/YYCategoriesMacro.h>
-//
-//#else
-//#import "YYCategoriesMacro.h"
-//#endif
+#if __has_include(<FDCategories/FDCategories.h>)
+#import <FDCategories/UIView+FDAdd.h>
+#import <FDCategories/UIView+FDScreenCapture.h>
+#import <FDCategories/UIImage+FDAdd.h>
+#import <FDCategories/UIImage+FDCircleImage.h>
+#import <FDCategories/UIImage+FDBlurImage.h>
+#import <FDCategories/UIImage+FDColorImage.h>
+#import <FDCategories/UIImage+FDFrameImage.h>
+#import <FDCategories/UIBarButtonItem+FDAdd.h>
+#import <FDCategories/UITextField+FDPlaceholderColor.h>
+#import <FDCategories/NSDate+FDAdd.h>
+#import <FDCategories/NSDictionary+FDPropertyPrint.h>
+#import <FDCategories/NSString+FDTextSize.h>
+#import <FDCategories/NSString+FDHash.h>
+
+
+#else
+
+#import "UIView+FDAdd.h"
+#import "UIView+FDScreenCapture.h"
+
+#import "UIImage+FDAdd.h"
+#import "UIImage+FDCircleImage.h"
+#import "UIImage+FDBlurImage.h"
+#import "UIImage+FDColorImage.h"
+#import "UIImage+FDFrameImage.h"
+
+#import "UIBarButtonItem+FDAdd.h"
+
+#import "UITextField+FDPlaceholderColor.h"
+
+#import "NSDate+FDAdd.h"
+
+
+#import "NSDictionary+FDPropertyPrint.h"
+
+#import "NSString+FDTextSize.h"
+#import "NSString+FDHash.h"
+
+
+#endif // FDCategories
 
 
 
