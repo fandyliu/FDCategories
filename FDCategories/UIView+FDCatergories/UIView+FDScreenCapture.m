@@ -13,7 +13,6 @@
 #pragma mark - 图片截取
 - (void)fd_viewScreenCaptureSaveToPath:(NSString *)path WithImageRepresentation:(FDImageRepresentation)imageRepresentation  {
     UIImage *image = [self fd_drawImage];
-    //把图片转成二进制流
     NSData *data = [[NSData alloc] init];
     if (imageRepresentation == FDImageJPEGRepresentation) {
         data = UIImageJPEGRepresentation(image, 1);
@@ -21,7 +20,6 @@
         data = UIImagePNGRepresentation(image);
     }
     BOOL writeSuccess = [data writeToFile:path atomically:YES];
-    //    判断是否写入成功
     if (!writeSuccess) {
         NSException *exc = [NSException exceptionWithName:@"未能写入成功" reason:@"可能是你的图片类型与你选择的格式不同" userInfo:nil];
         [exc raise];
@@ -29,11 +27,9 @@
 }
 
 - (void)fd_viewScreenCaptureSaveToPath:(NSString *)path {
-    //把图片转成二进制流
     UIImage *image = [self fd_drawImage];
     NSData *data = UIImagePNGRepresentation(image);
     BOOL writeSuccess = [data writeToFile:path atomically:YES];
-    //    判断是否写入成功
     if (!writeSuccess) {
         NSException *exc = [NSException exceptionWithName:@"未能写入成功" reason:@"可能是你的图片类型与你选择的格式不同" userInfo:nil];
         [exc raise];
