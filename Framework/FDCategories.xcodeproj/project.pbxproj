@@ -25,6 +25,16 @@
 		D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */; };
 		D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F891D6A99E400C25210 /* UITextField+FDPlaceholderColor.h */; };
 		D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F8A1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m */; };
+		D7881F901D6A9B5600C25210 /* NSDate+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F8E1D6A9B5600C25210 /* NSDate+FDAdd.h */; };
+		D7881F911D6A9B5600C25210 /* NSDate+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F8F1D6A9B5600C25210 /* NSDate+FDAdd.m */; };
+		D7881F951D6A9C0B00C25210 /* NSString+FDTextSize.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F931D6A9C0B00C25210 /* NSString+FDTextSize.h */; };
+		D7881F961D6A9C0B00C25210 /* NSString+FDTextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F941D6A9C0B00C25210 /* NSString+FDTextSize.m */; };
+		D7881F9A1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F981D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h */; };
+		D7881F9B1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F991D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m */; };
+		D7881F9F1D6A9D1800C25210 /* NSDictionary+FDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F9D1D6A9D1800C25210 /* NSDictionary+FDLog.h */; };
+		D7881FA01D6A9D1800C25210 /* NSDictionary+FDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F9E1D6A9D1800C25210 /* NSDictionary+FDLog.m */; };
+		D7881FA31D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881FA11D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.h */; };
+		D7881FA41D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881FA21D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +58,16 @@
 		D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDScreenCapture.m"; sourceTree = "<group>"; };
 		D7881F891D6A99E400C25210 /* UITextField+FDPlaceholderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+FDPlaceholderColor.h"; sourceTree = "<group>"; };
 		D7881F8A1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+FDPlaceholderColor.m"; sourceTree = "<group>"; };
+		D7881F8E1D6A9B5600C25210 /* NSDate+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FDAdd.h"; sourceTree = "<group>"; };
+		D7881F8F1D6A9B5600C25210 /* NSDate+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FDAdd.m"; sourceTree = "<group>"; };
+		D7881F931D6A9C0B00C25210 /* NSString+FDTextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FDTextSize.h"; sourceTree = "<group>"; };
+		D7881F941D6A9C0B00C25210 /* NSString+FDTextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDTextSize.m"; sourceTree = "<group>"; };
+		D7881F981D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+FDAdd.h"; sourceTree = "<group>"; };
+		D7881F991D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+FDAdd.m"; sourceTree = "<group>"; };
+		D7881F9D1D6A9D1800C25210 /* NSDictionary+FDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FDLog.h"; sourceTree = "<group>"; };
+		D7881F9E1D6A9D1800C25210 /* NSDictionary+FDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FDLog.m"; sourceTree = "<group>"; };
+		D7881FA11D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+FDPropertyPrint.h"; sourceTree = "<group>"; };
+		D7881FA21D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FDPropertyPrint.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +113,10 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D7881F9C1D6A9D0000C25210 /* NSDictionary+FDCategories */,
+				D7881F971D6A9C7700C25210 /* UIBarButtonItem+FDCategories */,
+				D7881F921D6A9BD200C25210 /* NSString+FDCategories */,
+				D7881F8D1D6A9B3100C25210 /* NSDate+FDCategories */,
 				D7881F811D6A967800C25210 /* UITextField+FDCategories */,
 				D7881F781D6A926D00C25210 /* UIView+FDCatergories */,
 				D715362B1D670015009D7421 /* UIImage+FDCategories */,
@@ -138,6 +162,44 @@
 			path = "UITextField+FDCategories";
 			sourceTree = "<group>";
 		};
+		D7881F8D1D6A9B3100C25210 /* NSDate+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7881F8E1D6A9B5600C25210 /* NSDate+FDAdd.h */,
+				D7881F8F1D6A9B5600C25210 /* NSDate+FDAdd.m */,
+			);
+			path = "NSDate+FDCategories";
+			sourceTree = "<group>";
+		};
+		D7881F921D6A9BD200C25210 /* NSString+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7881F931D6A9C0B00C25210 /* NSString+FDTextSize.h */,
+				D7881F941D6A9C0B00C25210 /* NSString+FDTextSize.m */,
+			);
+			path = "NSString+FDCategories";
+			sourceTree = "<group>";
+		};
+		D7881F971D6A9C7700C25210 /* UIBarButtonItem+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7881F981D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h */,
+				D7881F991D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m */,
+			);
+			path = "UIBarButtonItem+FDCategories";
+			sourceTree = "<group>";
+		};
+		D7881F9C1D6A9D0000C25210 /* NSDictionary+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7881F9D1D6A9D1800C25210 /* NSDictionary+FDLog.h */,
+				D7881F9E1D6A9D1800C25210 /* NSDictionary+FDLog.m */,
+				D7881FA11D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.h */,
+				D7881FA21D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m */,
+			);
+			path = "NSDictionary+FDCategories";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -146,14 +208,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */,
+				D7881F9A1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h in Headers */,
 				D715362E1D6700AE009D7421 /* UIImage+FDCircleImage.h in Headers */,
 				D7881F7B1D6A931100C25210 /* UIView+FDAdd.h in Headers */,
 				D71536381D6701BD009D7421 /* UIImage+FDBlurImage.h in Headers */,
+				D7881F951D6A9C0B00C25210 /* NSString+FDTextSize.h in Headers */,
+				D7881FA31D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.h in Headers */,
 				D71536401D67042B009D7421 /* UIImage+FDFrameImage.h in Headers */,
 				D71536291D66FCA7009D7421 /* FDCategories.h in Headers */,
 				D71536341D670191009D7421 /* UIImage+FDAdd.h in Headers */,
 				D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */,
+				D7881F9F1D6A9D1800C25210 /* NSDictionary+FDLog.h in Headers */,
 				D715363C1D67032D009D7421 /* UIImage+FDColorImage.h in Headers */,
+				D7881F901D6A9B5600C25210 /* NSDate+FDAdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,9 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71536391D6701BD009D7421 /* UIImage+FDBlurImage.m in Sources */,
+				D7881F961D6A9C0B00C25210 /* NSString+FDTextSize.m in Sources */,
 				D715363D1D67032D009D7421 /* UIImage+FDColorImage.m in Sources */,
 				D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */,
+				D7881F911D6A9B5600C25210 /* NSDate+FDAdd.m in Sources */,
+				D7881FA01D6A9D1800C25210 /* NSDictionary+FDLog.m in Sources */,
 				D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */,
+				D7881FA41D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m in Sources */,
+				D7881F9B1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m in Sources */,
 				D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */,
 				D715362F1D6700AE009D7421 /* UIImage+FDCircleImage.m in Sources */,
 				D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */,
