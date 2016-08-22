@@ -37,6 +37,8 @@
 		D7881FA41D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881FA21D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m */; };
 		D7881FEF1D6AAF4800C25210 /* NSString+FDHash.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881FED1D6AAF4800C25210 /* NSString+FDHash.h */; };
 		D7881FF01D6AAF4800C25210 /* NSString+FDHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881FEE1D6AAF4800C25210 /* NSString+FDHash.m */; };
+		D788201B1D6AE13100C25210 /* NSString+FDCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = D78820191D6AE13100C25210 /* NSString+FDCheck.h */; };
+		D788201C1D6AE13100C25210 /* NSString+FDCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = D788201A1D6AE13100C25210 /* NSString+FDCheck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +74,8 @@
 		D7881FA21D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+FDPropertyPrint.m"; sourceTree = "<group>"; };
 		D7881FED1D6AAF4800C25210 /* NSString+FDHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FDHash.h"; sourceTree = "<group>"; };
 		D7881FEE1D6AAF4800C25210 /* NSString+FDHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDHash.m"; sourceTree = "<group>"; };
+		D78820191D6AE13100C25210 /* NSString+FDCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FDCheck.h"; sourceTree = "<group>"; };
+		D788201A1D6AE13100C25210 /* NSString+FDCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDCheck.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 				D7881F941D6A9C0B00C25210 /* NSString+FDTextSize.m */,
 				D7881FED1D6AAF4800C25210 /* NSString+FDHash.h */,
 				D7881FEE1D6AAF4800C25210 /* NSString+FDHash.m */,
+				D78820191D6AE13100C25210 /* NSString+FDCheck.h */,
+				D788201A1D6AE13100C25210 /* NSString+FDCheck.m */,
 			);
 			path = "NSString+FDCategories";
 			sourceTree = "<group>";
@@ -216,6 +222,7 @@
 				D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */,
 				D7881F9A1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h in Headers */,
 				D715362E1D6700AE009D7421 /* UIImage+FDCircleImage.h in Headers */,
+				D788201B1D6AE13100C25210 /* NSString+FDCheck.h in Headers */,
 				D7881F7B1D6A931100C25210 /* UIView+FDAdd.h in Headers */,
 				D71536381D6701BD009D7421 /* UIImage+FDBlurImage.h in Headers */,
 				D7881F951D6A9C0B00C25210 /* NSString+FDTextSize.h in Headers */,
@@ -313,6 +320,7 @@
 				D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */,
 				D71536351D670191009D7421 /* UIImage+FDAdd.m in Sources */,
 				D7881FF01D6AAF4800C25210 /* NSString+FDHash.m in Sources */,
+				D788201C1D6AE13100C25210 /* NSString+FDCheck.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
