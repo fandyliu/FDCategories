@@ -10,6 +10,13 @@
 
 @interface NSDate (FDAdd)
 
+/** 时间戳 */
+@property (nonatomic, copy, readonly) NSString *fd_timestamp;
+/** 时间成分 */
+@property (nonatomic, strong, readonly) NSDateComponents *fd_components;
+/** 只有年月日的date */
+@property (nonatomic, strong, readonly) NSDate *fd_ymdDate;
+
 
 - (BOOL)fd_isToday;
 
@@ -18,6 +25,7 @@
 - (BOOL)fd_isTomorrow;
 
 - (BOOL)fd_isThisYear;
+
 
 /**
  *  获取与调用date与调用时的时间差

@@ -18,6 +18,7 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 
 
 #if __has_include(<FDCategories/FDCategories.h>)
+// UIKit
 #import <FDCategories/UIView+FDAdd.h>
 #import <FDCategories/UIView+FDScreenCapture.h>
 #import <FDCategories/UIImage+FDAdd.h>
@@ -27,14 +28,19 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import <FDCategories/UIImage+FDFrameImage.h>
 #import <FDCategories/UIBarButtonItem+FDAdd.h>
 #import <FDCategories/UITextField+FDPlaceholderColor.h>
+//
+
+// Foundation
 #import <FDCategories/NSDate+FDAdd.h>
 #import <FDCategories/NSDictionary+FDPropertyPrint.h>
 #import <FDCategories/NSString+FDTextSize.h>
 #import <FDCategories/NSString+FDHash.h>
+//
+#import <FDCategories/NSArray+FDAdd.h>
 
 
 #else
-
+// UIKit
 #import "UIView+FDAdd.h"
 #import "UIView+FDScreenCapture.h"
 
@@ -48,6 +54,7 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 
 #import "UITextField+FDPlaceholderColor.h"
 
+// Foundation
 #import "NSDate+FDAdd.h"
 
 
@@ -55,7 +62,7 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 
 #import "NSString+FDTextSize.h"
 #import "NSString+FDHash.h"
-
+#import "NSArray+FDAdd.h"
 
 #endif // FDCategories
 

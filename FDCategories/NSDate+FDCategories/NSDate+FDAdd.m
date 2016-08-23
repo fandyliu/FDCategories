@@ -10,17 +10,34 @@
 
 @implementation NSDate (FDAdd)
 
+#pragma mark - 属性
+- (NSString *)fd_timestamp {
+    NSTimeInterval timeInterval = [self timeIntervalSince1970];
+    NSString *timeStr = [NSString stringWithFormat:@"%.0f",timeInterval];
+    return timeStr;
+}
+
+- (NSDateComponents *)fd_components {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSCalendarUnit unit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+    return [calendar components:unit fromDate:self];
+}
+
+- (NSDate *)fd_ymdDate {
+    NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
+    fmt.dateFormat = @"yyyyMMdd";
+    NSString *dateStr = [fmt stringFromDate:self];
+    return [fmt dateFromString:dateStr];
+}
 
 
+#pragma mark - 是否是今天昨天明天今年
 - (BOOL)fd_isToday {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         return [calendar isDateInToday:self];
     } else {
-        NSCalendarUnit unit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
-        NSDateComponents *selfCmps = [calendar components:unit fromDate:self];
-        NSDateComponents *currentCmps = [calendar components:unit fromDate:[NSDate date]];
-        return [selfCmps isEqual:currentCmps];
+        return [self callWithValue:0];
     }
 }
 
@@ -29,16 +46,7 @@
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         return [calendar isDateInYesterday:self];
     } else {
-        NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
-        fmt.dateFormat = @"yyyyMMdd";
-        NSString *selfStr = [fmt stringFromDate:self];
-        NSString *currentStr = [fmt stringFromDate:[NSDate date]];
-        NSDate *selfDate = [fmt dateFromString:selfStr];
-        NSDate *currentDate = [fmt dateFromString:currentStr];
-        NSCalendarUnit unit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
-        NSDateComponents *cmps = [calendar components:unit fromDate:selfDate toDate:currentDate options:NSCalendarWrapComponents];
-        return cmps.day == 1 && cmps.month == 0 && cmps.year == 0;
-        
+        return [self callWithValue:1];
     }
 }
 
@@ -47,16 +55,14 @@
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0) {
         return [calendar isDateInTomorrow:self];
     } else {
-        NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
-        fmt.dateFormat = @"yyyyMMdd";
-        NSString *selfStr = [fmt stringFromDate:self];
-        NSString *currentStr = [fmt stringFromDate:[NSDate date]];
-        NSDate *selfDate = [fmt dateFromString:selfStr];
-        NSDate *currentDate = [fmt dateFromString:currentStr];
-        NSCalendarUnit unit = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay;
-        NSDateComponents *cmps = [calendar components:unit fromDate:selfDate toDate:currentDate options:NSCalendarWrapComponents];
-        return cmps.day == -1 && cmps.month == 0 && cmps.year == 0;
+        return [self callWithValue:-1];
     }
+}
+
+- (BOOL)callWithValue:(NSInteger)value {
+    NSDateComponents *selfComponents = self.fd_components;
+    NSDateComponents *currentComponents = [NSDate date].fd_components;
+    return selfComponents.year == currentComponents.year && selfComponents.month == currentComponents.month && (selfComponents.day + value) == currentComponents.day;
 }
 
 - (BOOL)fd_isThisYear {
@@ -66,6 +72,8 @@
     return selfYear == currentYear;
 }
 
+
+#pragma mark - 其他
 - (NSDateComponents *)fd_componentsDifferenceToNow {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSCalendarUnit units = NSCalendarUnitYear | NSCalendarUnitMonth |NSCalendarUnitDay | NSCalendarUnitHour |NSCalendarUnitMinute | NSCalendarUnitSecond;
