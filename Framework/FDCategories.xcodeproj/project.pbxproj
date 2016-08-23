@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7041B141D6C4090008B030A /* NSArray+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7041B121D6C4090008B030A /* NSArray+FDAdd.h */; };
+		D7041B151D6C4090008B030A /* NSArray+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7041B131D6C4090008B030A /* NSArray+FDAdd.m */; };
 		D71536291D66FCA7009D7421 /* FDCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D71536281D66FCA7009D7421 /* FDCategories.h */; };
 		D715362E1D6700AE009D7421 /* UIImage+FDCircleImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D715362C1D6700AE009D7421 /* UIImage+FDCircleImage.h */; };
 		D715362F1D6700AE009D7421 /* UIImage+FDCircleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D715362D1D6700AE009D7421 /* UIImage+FDCircleImage.m */; };
@@ -38,6 +40,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D7041B121D6C4090008B030A /* NSArray+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FDAdd.h"; sourceTree = "<group>"; };
+		D7041B131D6C4090008B030A /* NSArray+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FDAdd.m"; sourceTree = "<group>"; };
 		D71536191D66FAB0009D7421 /* FDCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D715361E1D66FAB0009D7421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D71536281D66FCA7009D7421 /* FDCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCategories.h; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7041B091D6C3FFF008B030A /* NSArray+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7041B121D6C4090008B030A /* NSArray+FDAdd.h */,
+				D7041B131D6C4090008B030A /* NSArray+FDAdd.m */,
+			);
+			path = "NSArray+FDCategories";
+			sourceTree = "<group>";
+		};
 		D715360F1D66FAB0009D7421 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D7041B091D6C3FFF008B030A /* NSArray+FDCategories */,
 				D7881F9C1D6A9D0000C25210 /* NSDictionary+FDCategories */,
 				D7881F971D6A9C7700C25210 /* UIBarButtonItem+FDCategories */,
 				D7881F921D6A9BD200C25210 /* NSString+FDCategories */,
@@ -218,6 +232,7 @@
 				D71536291D66FCA7009D7421 /* FDCategories.h in Headers */,
 				D71536341D670191009D7421 /* UIImage+FDAdd.h in Headers */,
 				D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */,
+				D7041B141D6C4090008B030A /* NSArray+FDAdd.h in Headers */,
 				D7881F9F1D6A9D1800C25210 /* NSDictionary+FDLog.h in Headers */,
 				D715363C1D67032D009D7421 /* UIImage+FDColorImage.h in Headers */,
 				D7881F901D6A9B5600C25210 /* NSDate+FDAdd.h in Headers */,
@@ -298,6 +313,7 @@
 				D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */,
 				D7881F911D6A9B5600C25210 /* NSDate+FDAdd.m in Sources */,
 				D7881FA01D6A9D1800C25210 /* NSDictionary+FDLog.m in Sources */,
+				D7041B151D6C4090008B030A /* NSArray+FDAdd.m in Sources */,
 				D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */,
 				D7881FA41D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m in Sources */,
 				D7881F9B1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m in Sources */,
