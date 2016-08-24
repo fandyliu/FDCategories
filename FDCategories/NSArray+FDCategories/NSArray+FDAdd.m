@@ -50,10 +50,8 @@
     for (id obj in self) {
         [resultStr appendFormat:@"%@,",obj];
     }
-    NSString *str = [resultStr substringWithRange:NSMakeRange(0, str.length-1)];
-    return str;
+    return [resultStr substringWithRange:NSMakeRange(0, resultStr.length-1)];
 }
-
 
 
 @end
