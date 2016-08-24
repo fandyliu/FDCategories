@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D701DB141D6D507900C767F6 /* UIColor+FDHexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D701DB121D6D507900C767F6 /* UIColor+FDHexColor.h */; };
+		D701DB151D6D507900C767F6 /* UIColor+FDHexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D701DB131D6D507900C767F6 /* UIColor+FDHexColor.m */; };
 		D7041B141D6C4090008B030A /* NSArray+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7041B121D6C4090008B030A /* NSArray+FDAdd.h */; };
 		D7041B151D6C4090008B030A /* NSArray+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7041B131D6C4090008B030A /* NSArray+FDAdd.m */; };
 		D71536291D66FCA7009D7421 /* FDCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D71536281D66FCA7009D7421 /* FDCategories.h */; };
@@ -44,6 +46,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D701DB121D6D507900C767F6 /* UIColor+FDHexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FDHexColor.h"; sourceTree = "<group>"; };
+		D701DB131D6D507900C767F6 /* UIColor+FDHexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDHexColor.m"; sourceTree = "<group>"; };
 		D7041B121D6C4090008B030A /* NSArray+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+FDAdd.h"; sourceTree = "<group>"; };
 		D7041B131D6C4090008B030A /* NSArray+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+FDAdd.m"; sourceTree = "<group>"; };
 		D71536191D66FAB0009D7421 /* FDCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D701DB111D6D503500C767F6 /* UIColor+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D701DB121D6D507900C767F6 /* UIColor+FDHexColor.h */,
+				D701DB131D6D507900C767F6 /* UIColor+FDHexColor.m */,
+			);
+			path = "UIColor+FDCategories";
+			sourceTree = "<group>";
+		};
 		D7041B091D6C3FFF008B030A /* NSArray+FDCategories */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D701DB111D6D503500C767F6 /* UIColor+FDCategories */,
 				D7041B091D6C3FFF008B030A /* NSArray+FDCategories */,
 				D7881F9C1D6A9D0000C25210 /* NSDictionary+FDCategories */,
 				D7881F971D6A9C7700C25210 /* UIBarButtonItem+FDCategories */,
@@ -247,6 +261,7 @@
 				D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */,
 				D7041B141D6C4090008B030A /* NSArray+FDAdd.h in Headers */,
 				D7881F9F1D6A9D1800C25210 /* NSDictionary+FDLog.h in Headers */,
+				D701DB141D6D507900C767F6 /* UIColor+FDHexColor.h in Headers */,
 				D715363C1D67032D009D7421 /* UIImage+FDColorImage.h in Headers */,
 				D7881F901D6A9B5600C25210 /* NSDate+FDAdd.h in Headers */,
 				D7881FEF1D6AAF4800C25210 /* NSString+FDHash.h in Headers */,
@@ -323,6 +338,7 @@
 			files = (
 				D71536391D6701BD009D7421 /* UIImage+FDBlurImage.m in Sources */,
 				D7881F961D6A9C0B00C25210 /* NSString+FDTextSize.m in Sources */,
+				D701DB151D6D507900C767F6 /* UIColor+FDHexColor.m in Sources */,
 				D715363D1D67032D009D7421 /* UIImage+FDColorImage.m in Sources */,
 				D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */,
 				D7881F911D6A9B5600C25210 /* NSDate+FDAdd.m in Sources */,

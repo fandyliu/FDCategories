@@ -4,7 +4,7 @@
 [![Pod Version](http://img.shields.io/cocoapods/v/FDCategories.svg?style=flat)](http://cocoadocs.org/docsets/FDCategories/)&nbsp;
 [![Pod Platform](http://img.shields.io/cocoapods/p/FDCategories.svg?style=flat)](http://cocoadocs.org/docsets/FDCategories/)&nbsp;
 
-This library provides some category for Foundation and UIKit.
+This library provides some categories for Foundation and UIKit.
 
 
 Documentation

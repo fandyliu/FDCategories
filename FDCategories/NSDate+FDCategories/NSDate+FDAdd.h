@@ -28,11 +28,10 @@
 
 
 /**
- *  获取与调用date与调用时的时间差
- *
- *  @return 组件差值
+ *  获取从两个date组件差值
  */
-- (NSDateComponents *)fd_componentsDifferenceToNow;
++ (NSDateComponents *)fd_components:(NSCalendarUnit)unitFlags fromDate:(NSDate *)fromDate toDate:(NSDate *)toDate;
+
 /**
  *  根据一个时间字符和形式串生成Date
  *

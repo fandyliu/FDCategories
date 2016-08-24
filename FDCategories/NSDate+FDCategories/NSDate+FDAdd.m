@@ -73,14 +73,13 @@
 }
 
 
-#pragma mark - 其他
-- (NSDateComponents *)fd_componentsDifferenceToNow {
-    NSCalendar *calendar = [NSCalendar currentCalendar];
-    NSCalendarUnit units = NSCalendarUnitYear | NSCalendarUnitMonth |NSCalendarUnitDay | NSCalendarUnitHour |NSCalendarUnitMinute | NSCalendarUnitSecond;
-    
-    return [calendar components:units fromDate:self toDate:[NSDate date] options:kNilOptions];
+#pragma mark - components
++ (NSDateComponents *)fd_components:(NSCalendarUnit)unitFlags fromDate:(NSDate *)fromDate toDate:(NSDate *)toDate {
+    NSCalendar *calendar=[NSCalendar currentCalendar];
+    return [calendar components:unitFlags fromDate:fromDate toDate:toDate options:0];
 }
 
+#pragma mark - dateFormatter
 + (NSDate *)fd_dateFromString:(NSString *)String dateFormat:(NSString *)dateFormat {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = dateFormat;
@@ -93,8 +92,7 @@
     return [dateFormatter stringFromDate:self];
 }
 
-
-
+#pragma mark - 其他
 + (NSInteger)fd_getCurrentWeekday {
     NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     // 真机上需要设置区域，才能正确获取本地日期:zh_CN
