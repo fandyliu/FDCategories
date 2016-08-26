@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-#define LHColor(r, g, b) [UIColor colorWithRed: (r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:1]
+#define FDColor(r, g, b) [UIColor colorWithRed: (r) / 255.0f green:(g) / 255.0f blue:(b) / 255.0f alpha:1]
 
 @interface UIColor (FDHexColor)
 
@@ -17,13 +17,13 @@
  *  十六进制颜色>>支持@“#123456”、 @“0X123456”、 @“123456”三种格式
  *  如果格式不正确返回clearColor
  */
-+ (UIColor *)colorWithHexString:(NSString *)color;
++ (UIColor *)fd_colorWithHexString:(NSString *)color;
 
 
 /**
  *  十六进制颜色>>支持@“#123456”、 @“0X123456”、 @“123456”三种格式 
  *  如果格式不正确返回clearColor
  */
-+ (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
++ (UIColor *)fd_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha;
 
 @end

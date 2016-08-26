@@ -7,11 +7,6 @@
 This library provides some categories for Foundation and UIKit.
 
 
-Documentation
-==============
-
-You can build and install docset use `Docset` scheme in Xcode, `appledoc` need to be pre-installed. 
-Or your can read the [Documentation](http://github.ibireme.com/doc/YYCategories/index.html) online.
 
 
 Installation
@@ -34,13 +29,6 @@ Installation
 Requirements
 ==============
 This library requires `iOS 6.0+` and `Xcode 7.0+`.
-
-
-Notice
-==============
-I want to use the APIs as if it was provided by system, so I don't add prefix in
-these categories. This may cause some potential problems（such as conflict with other libraries), so if you just need some pieces of code
-in this project, pick them out and don't import the whole library.
 
 
 License

@@ -12,7 +12,7 @@
 
 
 
-+ (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
++ (UIColor *)fd_colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
 {
     //删除字符串中的空格 并转换为大写
     NSString *cString = [[color stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
@@ -53,9 +53,9 @@
     return [UIColor colorWithRed:((float)r / 255.0f) green:((float)g / 255.0f) blue:((float)b / 255.0f) alpha:alpha];
 }
 
-+ (UIColor *)colorWithHexString:(NSString *)color
++ (UIColor *)fd_colorWithHexString:(NSString *)color
 {
-    return [self colorWithHexString:color alpha:1.0f];
+    return [self fd_colorWithHexString:color alpha:1.0f];
 }
 
 
