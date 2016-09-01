@@ -12,75 +12,75 @@
 
 + (UIColor *)fd_flatRedColor
 {
-    return UIColorFromRGB(0xE74C3C);
+    return FDColorFromRGB(0xE74C3C);
 }
 + (UIColor *)fd_flatDarkRedColor
 {
-    return UIColorFromRGB(0xC0392B);
+    return FDColorFromRGB(0xC0392B);
 }
 
 #pragma mark - Green
 + (UIColor *)fd_flatGreenColor
 {
-    return UIColorFromRGB(0x2ECC71);
+    return FDColorFromRGB(0x2ECC71);
 }
 + (UIColor *)fd_flatDarkGreenColor
 {
-    return UIColorFromRGB(0x27AE60);
+    return FDColorFromRGB(0x27AE60);
 }
 
 
 #pragma mark - Blue
 + (UIColor *)fd_flatBlueColor
 {
-    return UIColorFromRGB(0x3498DB);
+    return FDColorFromRGB(0x3498DB);
 }
 + (UIColor *)fd_flatDarkBlueColor
 {
-    return UIColorFromRGB(0x2980B9);
+    return FDColorFromRGB(0x2980B9);
 }
 
 
 #pragma mark - Teal
 + (UIColor *)fd_flatTealColor
 {
-    return UIColorFromRGB(0x1ABC9C);
+    return FDColorFromRGB(0x1ABC9C);
 }
 + (UIColor *)fd_flatDarkTealColor
 {
-    return UIColorFromRGB(0x16A085);
+    return FDColorFromRGB(0x16A085);
 }
 
 #pragma mark - Purple
 + (UIColor *)fd_flatPurpleColor
 {
-    return UIColorFromRGB(0x9B59B6);
+    return FDColorFromRGB(0x9B59B6);
 }
 + (UIColor *)fd_flatDarkPurpleColor
 {
-    return UIColorFromRGB(0x8E44AD);
+    return FDColorFromRGB(0x8E44AD);
 }
 
 
 #pragma mark - Yellow
 + (UIColor *)fd_flatYellowColor
 {
-    return UIColorFromRGB(0xF1C40F);
+    return FDColorFromRGB(0xF1C40F);
 }
 + (UIColor *)fd_flatDarkYellowColor
 {
-    return UIColorFromRGB(0xF39C12);
+    return FDColorFromRGB(0xF39C12);
 }
 
 
 #pragma mark - Orange
 + (UIColor *)fd_flatOrangeColor
 {
-    return UIColorFromRGB(0xE67E22);
+    return FDColorFromRGB(0xE67E22);
 }
 + (UIColor *)fd_flatDarkOrangeColor
 {
-    return UIColorFromRGB(0xD35400);
+    return FDColorFromRGB(0xD35400);
 }
 
 
@@ -88,12 +88,12 @@
 #pragma mark - Gray
 + (UIColor *)fd_flatGrayColor
 {
-    return UIColorFromRGB(0x95A5A6);
+    return FDColorFromRGB(0x95A5A6);
 }
 
 + (UIColor *)fd_flatDarkGrayColor
 {
-    return UIColorFromRGB(0x7F8C8D);
+    return FDColorFromRGB(0x7F8C8D);
 }
 
 
@@ -101,12 +101,12 @@
 #pragma mark - White
 + (UIColor *)fd_flatWhiteColor
 {
-    return UIColorFromRGB(0xECF0F1);
+    return FDColorFromRGB(0xECF0F1);
 }
 
 + (UIColor *)fd_flatDarkWhiteColor
 {
-    return UIColorFromRGB(0xBDC3C7);
+    return FDColorFromRGB(0xBDC3C7);
 }
 
 
@@ -114,12 +114,12 @@
 #pragma mark - Black
 + (UIColor *)fd_flatBlackColor
 {
-    return UIColorFromRGB(0x34495E);
+    return FDColorFromRGB(0x34495E);
 }
 
 + (UIColor *)fd_flatDarkBlackColor
 {
-    return UIColorFromRGB(0x2C3E50);
+    return FDColorFromRGB(0x2C3E50);
 }
 
 
