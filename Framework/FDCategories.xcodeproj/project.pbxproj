@@ -25,6 +25,8 @@
 		D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D715363F1D67042B009D7421 /* UIImage+FDFrameImage.m */; };
 		D76DED881D790BFF00426E65 /* CALayer+FDTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = D76DED861D790BFF00426E65 /* CALayer+FDTransition.h */; };
 		D76DED891D790BFF00426E65 /* CALayer+FDTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D76DED871D790BFF00426E65 /* CALayer+FDTransition.m */; };
+		D76DED8C1D791F8D00426E65 /* NSString+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D76DED8A1D791F8D00426E65 /* NSString+FDAdd.h */; };
+		D76DED8D1D791F8D00426E65 /* NSString+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D76DED8B1D791F8D00426E65 /* NSString+FDAdd.m */; };
 		D7881F7B1D6A931100C25210 /* UIView+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F791D6A931100C25210 /* UIView+FDAdd.h */; };
 		D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */; };
 		D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */; };
@@ -72,6 +74,8 @@
 		D715363F1D67042B009D7421 /* UIImage+FDFrameImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FDFrameImage.m"; sourceTree = "<group>"; };
 		D76DED861D790BFF00426E65 /* CALayer+FDTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FDTransition.h"; sourceTree = "<group>"; };
 		D76DED871D790BFF00426E65 /* CALayer+FDTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FDTransition.m"; sourceTree = "<group>"; };
+		D76DED8A1D791F8D00426E65 /* NSString+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FDAdd.h"; sourceTree = "<group>"; };
+		D76DED8B1D791F8D00426E65 /* NSString+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDAdd.m"; sourceTree = "<group>"; };
 		D7881F791D6A931100C25210 /* UIView+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDAdd.h"; sourceTree = "<group>"; };
 		D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDAdd.m"; sourceTree = "<group>"; };
 		D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDScreenCapture.h"; sourceTree = "<group>"; };
@@ -231,6 +235,8 @@
 				D7881FEE1D6AAF4800C25210 /* NSString+FDHash.m */,
 				D78820191D6AE13100C25210 /* NSString+FDCheck.h */,
 				D788201A1D6AE13100C25210 /* NSString+FDCheck.m */,
+				D76DED8A1D791F8D00426E65 /* NSString+FDAdd.h */,
+				D76DED8B1D791F8D00426E65 /* NSString+FDAdd.m */,
 			);
 			path = "NSString+FDCategories";
 			sourceTree = "<group>";
@@ -287,6 +293,7 @@
 				D76DED881D790BFF00426E65 /* CALayer+FDTransition.h in Headers */,
 				D71536341D670191009D7421 /* UIImage+FDAdd.h in Headers */,
 				D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */,
+				D76DED8C1D791F8D00426E65 /* NSString+FDAdd.h in Headers */,
 				D7E76B1B1D77C30000D99A79 /* UIColor+FDFlatColors.h in Headers */,
 				D7041B141D6C4090008B030A /* NSArray+FDAdd.h in Headers */,
 				D7881F9F1D6A9D1800C25210 /* NSDictionary+FDLog.h in Headers */,
@@ -379,6 +386,7 @@
 				D7881FA41D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m in Sources */,
 				D7881F9B1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m in Sources */,
 				D7E76B211D77C69E00D99A79 /* CALayer+FDAnimation.m in Sources */,
+				D76DED8D1D791F8D00426E65 /* NSString+FDAdd.m in Sources */,
 				D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */,
 				D715362F1D6700AE009D7421 /* UIImage+FDCircleImage.m in Sources */,
 				D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */,

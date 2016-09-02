@@ -37,6 +37,7 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import <FDCategories/NSDictionary+FDPropertyPrint.h>
 #import <FDCategories/NSString+FDTextSize.h>
 #import <FDCategories/NSString+FDHash.h>
+#import <FDCategories/NSString+FDAdd.h>
 //
 #import <FDCategories/NSArray+FDAdd.h>
 
@@ -69,6 +70,7 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 
 #import "NSString+FDTextSize.h"
 #import "NSString+FDHash.h"
+#import "NSString+FDAdd.h"
 #import "NSArray+FDAdd.h"
 
 // QuartzCore
