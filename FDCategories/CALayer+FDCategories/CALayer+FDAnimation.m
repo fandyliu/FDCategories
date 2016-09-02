@@ -53,7 +53,7 @@
     }
 }
 
-- (CAAnimation *)fd_animationWithKeyPath:(FDAnimKeyPathType)keyPath values:(NSArray *)values duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount {
+- (CAAnimation *)fd_addAnimationWithKeyPath:(FDAnimKeyPathType)keyPath values:(NSArray *)values duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount {
     NSString *key = @"FDKeyframeAnimation";
     if ([self animationForKey:key] != nil) {
         [self removeAnimationForKey:key];
@@ -68,9 +68,9 @@
     return animation;
 }
 
-- (CAAnimation *)fd_reverseAnimation:(FDAnimKeyPathType)direction duration:(NSTimeInterval)duration isReverse:(BOOL)isReverse repeatCount:(NSUInteger)repeatCount timingFuncName:(NSString *)timingFuncName {
+- (CAAnimation *)fd_addReverseAnimation:(FDAnimKeyPathType)direction duration:(NSTimeInterval)duration isReverse:(BOOL)isReverse repeatCount:(NSUInteger)repeatCount timingFuncName:(NSString *)timingFuncName {
     
-    NSString *key = @"reverseAnimation";
+    NSString *key = @"FDReverseAnimation";
     if([self animationForKey:key]!=nil){
         [self removeAnimationForKey:key];
     }

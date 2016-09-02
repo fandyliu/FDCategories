@@ -40,6 +40,9 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 //
 #import <FDCategories/NSArray+FDAdd.h>
 
+// QuartzCore
+#import <FDCategories/CALayer+FDAnimation.h>
+#import <FDCategories/CALayer+FDTransition.h>
 
 #else
 // UIKit
@@ -68,8 +71,9 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import "NSString+FDHash.h"
 #import "NSArray+FDAdd.h"
 
-
+// QuartzCore
 #import "CALayer+FDAnimation.h"
+#import "CALayer+FDTransition.h"
 
 #endif // FDCategories
 

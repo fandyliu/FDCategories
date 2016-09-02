@@ -34,12 +34,12 @@ typedef NS_ENUM(NSUInteger, FDAnimKeyPathType) {
 /**
  *  对CAKeyframeAnimation的简单封装
  */
-- (CAAnimation *)fd_animationWithKeyPath:(FDAnimKeyPathType)keyPath values:(NSArray *)values duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount;
+- (CAAnimation *)fd_addAnimationWithKeyPath:(FDAnimKeyPathType)keyPath values:(NSArray *)values duration:(NSTimeInterval)duration repeatCount:(NSUInteger)repeatCount;
 
 /**
  *  自动旋转动画FDAnimKeyPathType 只能取FDAnimKeyPathTypeRotationX/Y/Z 非正常值返回nil
  */
--(CAAnimation *)fd_reverseAnimation:(FDAnimKeyPathType)direction duration:(NSTimeInterval)duration isReverse:(BOOL)isReverse repeatCount:(NSUInteger)repeatCount timingFuncName:(NSString *)timingFuncName;
+-(CAAnimation *)fd_addReverseAnimation:(FDAnimKeyPathType)direction duration:(NSTimeInterval)duration isReverse:(BOOL)isReverse repeatCount:(NSUInteger)repeatCount timingFuncName:(NSString *)timingFuncName;
 
 
 @end
