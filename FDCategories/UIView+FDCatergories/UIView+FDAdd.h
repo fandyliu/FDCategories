@@ -27,6 +27,7 @@
  */
 + (instancetype)fd_viewFromXib;
 
+
 /**
  *  判断self和view是否重叠
  */

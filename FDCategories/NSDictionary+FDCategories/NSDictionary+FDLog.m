@@ -19,10 +19,15 @@
     [string appendString:@"{\n"];
     
     [self enumerateKeysAndObjectsUsingBlock:^(id  _Nonnull key, id  _Nonnull obj, BOOL * _Nonnull stop) {
-        [string appendFormat:@"  %@ = ",key];
+        [string appendFormat:@"     %@ = ",key];
         [string appendFormat:@"%@;\n",obj];
     }];
     [string appendString:@"   }"];
+    NSRange range = [string rangeOfString:@";" options:NSBackwardsSearch];
+    
+    if (range.location != NSNotFound) {
+        [string deleteCharactersInRange:range];
+    }
     return string;
 }
 

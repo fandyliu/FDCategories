@@ -51,6 +51,8 @@
 		D7E76B1C1D77C30000D99A79 /* UIColor+FDFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E76B1A1D77C30000D99A79 /* UIColor+FDFlatColors.m */; };
 		D7E76B201D77C69E00D99A79 /* CALayer+FDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E76B1E1D77C69E00D99A79 /* CALayer+FDAnimation.h */; };
 		D7E76B211D77C69E00D99A79 /* CALayer+FDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E76B1F1D77C69E00D99A79 /* CALayer+FDAnimation.m */; };
+		D7EABA8E1D878AA400211188 /* UIView+FDBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EABA8C1D878AA400211188 /* UIView+FDBorder.h */; };
+		D7EABA8F1D878AA400211188 /* UIView+FDBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EABA8D1D878AA400211188 /* UIView+FDBorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +102,8 @@
 		D7E76B1A1D77C30000D99A79 /* UIColor+FDFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDFlatColors.m"; sourceTree = "<group>"; };
 		D7E76B1E1D77C69E00D99A79 /* CALayer+FDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FDAnimation.h"; sourceTree = "<group>"; };
 		D7E76B1F1D77C69E00D99A79 /* CALayer+FDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FDAnimation.m"; sourceTree = "<group>"; };
+		D7EABA8C1D878AA400211188 /* UIView+FDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDBorder.h"; sourceTree = "<group>"; };
+		D7EABA8D1D878AA400211188 /* UIView+FDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDBorder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +208,8 @@
 				D7881F7A1D6A931100C25210 /* UIView+FDAdd.m */,
 				D7881F7D1D6A941600C25210 /* UIView+FDScreenCapture.h */,
 				D7881F7E1D6A941600C25210 /* UIView+FDScreenCapture.m */,
+				D7EABA8C1D878AA400211188 /* UIView+FDBorder.h */,
+				D7EABA8D1D878AA400211188 /* UIView+FDBorder.m */,
 			);
 			path = "UIView+FDCatergories";
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 				D701DB141D6D507900C767F6 /* UIColor+FDHexColor.h in Headers */,
 				D715363C1D67032D009D7421 /* UIImage+FDColorImage.h in Headers */,
 				D7881F901D6A9B5600C25210 /* NSDate+FDAdd.h in Headers */,
+				D7EABA8E1D878AA400211188 /* UIView+FDBorder.h in Headers */,
 				D7881FEF1D6AAF4800C25210 /* NSString+FDHash.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +397,7 @@
 				D7881F801D6A941600C25210 /* UIView+FDScreenCapture.m in Sources */,
 				D715362F1D6700AE009D7421 /* UIImage+FDCircleImage.m in Sources */,
 				D71536411D67042B009D7421 /* UIImage+FDFrameImage.m in Sources */,
+				D7EABA8F1D878AA400211188 /* UIView+FDBorder.m in Sources */,
 				D71536351D670191009D7421 /* UIImage+FDAdd.m in Sources */,
 				D7881FF01D6AAF4800C25210 /* NSString+FDHash.m in Sources */,
 				D788201C1D6AE13100C25210 /* NSString+FDCheck.m in Sources */,
