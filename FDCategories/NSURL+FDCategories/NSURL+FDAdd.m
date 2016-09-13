@@ -10,7 +10,7 @@
 
 @implementation NSURL (FDAdd)
 
-- (NSDictionary *)fd_QueryComponents {
+- (NSDictionary *)fd_queryComponents {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     NSString *query = [self query]; // key1=value1&key2=value2
     if (query.length) {

@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSURL (FDAdd)
-
-- (NSDictionary *)fd_QueryComponents;
+/**
+ *  返回URL请求参数字典
+ */
+- (NSDictionary *)fd_queryComponents;
 
 @end

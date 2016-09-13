@@ -10,9 +10,22 @@
 
 @implementation UIView (FDScreenCapture)
 
+- (UIImage *)fd_imageFromView {
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, 0.0);
+    if ([self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)]) {
+        [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:NO];// 摆脱毛刺效果
+    } else {
+        [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    }
+    UIImage * viewImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return viewImage;
+}
+
+
 #pragma mark - 图片截取
 - (void)fd_viewScreenCaptureSaveToPath:(NSString *)path WithImageRepresentation:(FDImageRepresentation)imageRepresentation  {
-    UIImage *image = [self fd_drawImage];
+    UIImage *image = [self fd_imageFromView];
     NSData *data = [[NSData alloc] init];
     if (imageRepresentation == FDImageJPEGRepresentation) {
         data = UIImageJPEGRepresentation(image, 1);
@@ -27,7 +40,7 @@
 }
 
 - (void)fd_viewScreenCaptureSaveToPath:(NSString *)path {
-    UIImage *image = [self fd_drawImage];
+    UIImage *image = [self fd_imageFromView];
     NSData *data = UIImagePNGRepresentation(image);
     BOOL writeSuccess = [data writeToFile:path atomically:YES];
     if (!writeSuccess) {
@@ -36,17 +49,6 @@
     }
 }
 
-- (UIImage *)fd_drawImage {
-    UIGraphicsBeginImageContextWithOptions(self.frame.size, NO, 0.0);
-    
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    [self.layer renderInContext:ctx];
-    
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    
-    UIGraphicsEndImageContext();
-    return image;
-}
 
 
 @end
