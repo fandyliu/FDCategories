@@ -53,6 +53,8 @@
 		D7E76B211D77C69E00D99A79 /* CALayer+FDAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E76B1F1D77C69E00D99A79 /* CALayer+FDAnimation.m */; };
 		D7EABA8E1D878AA400211188 /* UIView+FDBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EABA8C1D878AA400211188 /* UIView+FDBorder.h */; };
 		D7EABA8F1D878AA400211188 /* UIView+FDBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EABA8D1D878AA400211188 /* UIView+FDBorder.m */; };
+		D7EABA931D879F8B00211188 /* NSURL+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7EABA911D879F8B00211188 /* NSURL+FDAdd.h */; };
+		D7EABA941D879F8B00211188 /* NSURL+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EABA921D879F8B00211188 /* NSURL+FDAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +106,8 @@
 		D7E76B1F1D77C69E00D99A79 /* CALayer+FDAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FDAnimation.m"; sourceTree = "<group>"; };
 		D7EABA8C1D878AA400211188 /* UIView+FDBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDBorder.h"; sourceTree = "<group>"; };
 		D7EABA8D1D878AA400211188 /* UIView+FDBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDBorder.m"; sourceTree = "<group>"; };
+		D7EABA911D879F8B00211188 /* NSURL+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+FDAdd.h"; sourceTree = "<group>"; };
+		D7EABA921D879F8B00211188 /* NSURL+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+FDAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D7EABA901D879F7100211188 /* NSURL+FDCategories */,
 				D7E76B1D1D77C67F00D99A79 /* CALayer+FDCategories */,
 				D7881F8D1D6A9B3100C25210 /* NSDate+FDCategories */,
 				D7881F921D6A9BD200C25210 /* NSString+FDCategories */,
@@ -278,6 +283,15 @@
 			path = "CALayer+FDCategories";
 			sourceTree = "<group>";
 		};
+		D7EABA901D879F7100211188 /* NSURL+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7EABA911D879F8B00211188 /* NSURL+FDAdd.h */,
+				D7EABA921D879F8B00211188 /* NSURL+FDAdd.m */,
+			);
+			path = "NSURL+FDCategories";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -298,6 +312,7 @@
 				D71536291D66FCA7009D7421 /* FDCategories.h in Headers */,
 				D76DED881D790BFF00426E65 /* CALayer+FDTransition.h in Headers */,
 				D71536341D670191009D7421 /* UIImage+FDAdd.h in Headers */,
+				D7EABA931D879F8B00211188 /* NSURL+FDAdd.h in Headers */,
 				D7881F8B1D6A99E400C25210 /* UITextField+FDPlaceholderColor.h in Headers */,
 				D76DED8C1D791F8D00426E65 /* NSString+FDAdd.h in Headers */,
 				D7E76B1B1D77C30000D99A79 /* UIColor+FDFlatColors.h in Headers */,
@@ -384,6 +399,7 @@
 				D701DB151D6D507900C767F6 /* UIColor+FDHexColor.m in Sources */,
 				D715363D1D67032D009D7421 /* UIImage+FDColorImage.m in Sources */,
 				D7881F8C1D6A99E400C25210 /* UITextField+FDPlaceholderColor.m in Sources */,
+				D7EABA941D879F8B00211188 /* NSURL+FDAdd.m in Sources */,
 				D7881F911D6A9B5600C25210 /* NSDate+FDAdd.m in Sources */,
 				D7E76B1C1D77C30000D99A79 /* UIColor+FDFlatColors.m in Sources */,
 				D7881FA01D6A9D1800C25210 /* NSDictionary+FDLog.m in Sources */,
