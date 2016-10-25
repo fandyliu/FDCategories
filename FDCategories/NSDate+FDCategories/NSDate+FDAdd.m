@@ -31,6 +31,10 @@
 }
 
 
+- (NSString *)fd_timeString {
+    return [self fd_stringFromDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+}
+
 #pragma mark - 是否是今天昨天明天今年
 - (BOOL)fd_isToday {
     NSCalendar *calendar = [NSCalendar currentCalendar];

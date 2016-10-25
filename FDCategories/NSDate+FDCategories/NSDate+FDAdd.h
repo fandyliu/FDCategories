@@ -16,7 +16,8 @@
 @property (nonatomic, strong, readonly) NSDateComponents *fd_components;
 /** 只有年月日的date */
 @property (nonatomic, strong, readonly) NSDate *fd_ymdDate;
-
+/** yyyy-MM-dd HH:mm:ss 形式时间字符串 */
+@property (nonatomic, copy, readonly) NSString *fd_timeString;
 
 - (BOOL)fd_isToday;
 
