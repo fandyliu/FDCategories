@@ -2,8 +2,8 @@
 //  CALayer+FDAnimation.h
 //  FDCategories
 //
-//  Created by QianTuFD on 16/9/1.
-//  Copyright © 2016年 fandy. All rights reserved.
+//  Created by fandy on 15/9/1.
+//  Copyright © 2015年 fandy. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>

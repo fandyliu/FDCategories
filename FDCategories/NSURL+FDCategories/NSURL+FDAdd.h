@@ -2,8 +2,8 @@
 //  NSURL+FDAdd.h
 //  FDCategories
 //
-//  Created by QianTuFD on 16/9/13.
-//  Copyright © 2016年 fandy. All rights reserved.
+//  Created by fandy on 15/9/13.
+//  Copyright © 2015年 fandy. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
