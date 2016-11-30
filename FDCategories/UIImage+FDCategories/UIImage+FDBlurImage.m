@@ -2,8 +2,8 @@
 //  UIImage+FDBlurImage.m
 //  FDCategories
 //
-//  Created by QianTuFD on 16/8/19.
-//  Copyright © 2016年 fandy. All rights reserved.
+//  Created by fandy on 15/8/19.
+//  Copyright © 2015年 fandy. All rights reserved.
 //
 
 #import "UIImage+FDBlurImage.h"

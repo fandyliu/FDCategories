@@ -2,8 +2,8 @@
 //  FDCategories.h
 //  FDCategories
 //
-//  Created by QianTuFD on 16/8/19.
-//  Copyright © 2016年 fandy. All rights reserved.
+//  Created by fandy on 15/8/19.
+//  Copyright © 2015年 fandy. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -32,6 +32,7 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import <FDCategories/UIColor+FDHexColor.h>
 #import <FDCategories/UIColor+FDFlatColors.h>
 #import <FDCategories/UIView+FDBorder.h>
+//
 
 #import <FDCategories/UIButton+FDAdd.h>
 
@@ -85,6 +86,9 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import "NSArray+FDAdd.h"
 
 // QuartzCore
+
+
+
 #import "CALayer+FDAnimation.h"
 #import "CALayer+FDTransition.h"
 
