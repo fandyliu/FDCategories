@@ -33,6 +33,8 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import <FDCategories/UIColor+FDFlatColors.h>
 #import <FDCategories/UIView+FDBorder.h>
 
+#import <FDCategories/UIButton+FDAdd.h>
+
 // Foundation
 #import <FDCategories/NSDate+FDAdd.h>
 #import <FDCategories/NSURL+FDAdd.h>
@@ -67,6 +69,9 @@ FOUNDATION_EXPORT const unsigned char FDCategoriesVersionString[];
 #import "UIColor+FDHexColor.h"
 #import "UIColor+FDFlatColors.h"
 #import "UIView+FDBorder.h"
+
+
+#import "UIButton+FDAdd.h"
 // Foundation
 #import "NSDate+FDAdd.h"
 #import "NSURL+FDAdd.h"

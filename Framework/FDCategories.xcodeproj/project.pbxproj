@@ -47,6 +47,8 @@
 		D7881FF01D6AAF4800C25210 /* NSString+FDHash.m in Sources */ = {isa = PBXBuildFile; fileRef = D7881FEE1D6AAF4800C25210 /* NSString+FDHash.m */; };
 		D788201B1D6AE13100C25210 /* NSString+FDCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = D78820191D6AE13100C25210 /* NSString+FDCheck.h */; };
 		D788201C1D6AE13100C25210 /* NSString+FDCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = D788201A1D6AE13100C25210 /* NSString+FDCheck.m */; };
+		D7E61E5E1DED684200469114 /* UIButton+FDAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E61E5C1DED684200469114 /* UIButton+FDAdd.h */; };
+		D7E61E5F1DED684200469114 /* UIButton+FDAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E61E5D1DED684200469114 /* UIButton+FDAdd.m */; };
 		D7E76B1B1D77C30000D99A79 /* UIColor+FDFlatColors.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E76B191D77C30000D99A79 /* UIColor+FDFlatColors.h */; };
 		D7E76B1C1D77C30000D99A79 /* UIColor+FDFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E76B1A1D77C30000D99A79 /* UIColor+FDFlatColors.m */; };
 		D7E76B201D77C69E00D99A79 /* CALayer+FDAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = D7E76B1E1D77C69E00D99A79 /* CALayer+FDAnimation.h */; };
@@ -100,6 +102,8 @@
 		D7881FEE1D6AAF4800C25210 /* NSString+FDHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDHash.m"; sourceTree = "<group>"; };
 		D78820191D6AE13100C25210 /* NSString+FDCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FDCheck.h"; sourceTree = "<group>"; };
 		D788201A1D6AE13100C25210 /* NSString+FDCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FDCheck.m"; sourceTree = "<group>"; };
+		D7E61E5C1DED684200469114 /* UIButton+FDAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FDAdd.h"; sourceTree = "<group>"; };
+		D7E61E5D1DED684200469114 /* UIButton+FDAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FDAdd.m"; sourceTree = "<group>"; };
 		D7E76B191D77C30000D99A79 /* UIColor+FDFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FDFlatColors.h"; sourceTree = "<group>"; };
 		D7E76B1A1D77C30000D99A79 /* UIColor+FDFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FDFlatColors.m"; sourceTree = "<group>"; };
 		D7E76B1E1D77C69E00D99A79 /* CALayer+FDAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FDAnimation.h"; sourceTree = "<group>"; };
@@ -173,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				D71536281D66FCA7009D7421 /* FDCategories.h */,
+				D7E61E5B1DED681100469114 /* UIButton+FDCategories */,
 				D7EABA901D879F7100211188 /* NSURL+FDCategories */,
 				D7E76B1D1D77C67F00D99A79 /* CALayer+FDCategories */,
 				D7881F8D1D6A9B3100C25210 /* NSDate+FDCategories */,
@@ -272,6 +277,15 @@
 			path = "NSDictionary+FDCategories";
 			sourceTree = "<group>";
 		};
+		D7E61E5B1DED681100469114 /* UIButton+FDCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D7E61E5C1DED684200469114 /* UIButton+FDAdd.h */,
+				D7E61E5D1DED684200469114 /* UIButton+FDAdd.m */,
+			);
+			path = "UIButton+FDCategories";
+			sourceTree = "<group>";
+		};
 		D7E76B1D1D77C67F00D99A79 /* CALayer+FDCategories */ = {
 			isa = PBXGroup;
 			children = (
@@ -300,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7881F7F1D6A941600C25210 /* UIView+FDScreenCapture.h in Headers */,
+				D7E61E5E1DED684200469114 /* UIButton+FDAdd.h in Headers */,
 				D7E76B201D77C69E00D99A79 /* CALayer+FDAnimation.h in Headers */,
 				D7881F9A1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.h in Headers */,
 				D715362E1D6700AE009D7421 /* UIImage+FDCircleImage.h in Headers */,
@@ -405,6 +420,7 @@
 				D7881FA01D6A9D1800C25210 /* NSDictionary+FDLog.m in Sources */,
 				D7041B151D6C4090008B030A /* NSArray+FDAdd.m in Sources */,
 				D7881F7C1D6A931100C25210 /* UIView+FDAdd.m in Sources */,
+				D7E61E5F1DED684200469114 /* UIButton+FDAdd.m in Sources */,
 				D76DED891D790BFF00426E65 /* CALayer+FDTransition.m in Sources */,
 				D7881FA41D6A9D4D00C25210 /* NSDictionary+FDPropertyPrint.m in Sources */,
 				D7881F9B1D6A9C8D00C25210 /* UIBarButtonItem+FDAdd.m in Sources */,
