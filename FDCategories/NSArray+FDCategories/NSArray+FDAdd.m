@@ -53,5 +53,15 @@
     return [resultStr substringWithRange:NSMakeRange(0, resultStr.length-1)];
 }
 
+#pragma mark - 安全下标访问
+- (id)safeObjectAtIndex:(NSUInteger)index {
+    if (index < self.count) {
+        return [self objectAtIndex:index];
+    }else if (self.count > 0) {
+        return [self objectAtIndex:0];
+    }else {
+        return nil;
+    }
+}
 
 @end

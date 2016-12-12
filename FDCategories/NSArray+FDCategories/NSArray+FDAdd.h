@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSArray (FDAdd)
+@interface NSArray<ObjectType> (FDAdd)
 
 
 /**
@@ -32,7 +32,10 @@
 - (NSString *)fd_string;
 
 
-
+/**
+ 安全下标访问越界返回0下标对应的元素 如果是空的返回nil
+ */
+- (ObjectType)safeObjectAtIndex:(NSUInteger)index;
 
 
 
