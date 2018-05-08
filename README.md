@@ -23,7 +23,7 @@ Installation
 
 1. Download all the files in the FDCategories subdirectory.
 2. Add the source files to your Xcode project.
-3. Import `YYCategories.h`.
+3. Import `FDCategories.h`.
 
 
 Requirements
